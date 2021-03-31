@@ -1,0 +1,176 @@
+body{
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-family: "Montserrat-thin";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title {
+    background: #ff4c68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+p {
+color: #8f8f8f;
+font-size: 2rem;
+}
+/*------------navbar-------------------------*/
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 18px;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+/*     download btns     */
+
+.download-btn {
+    margin: 5% 3% 5% 0%;
+}
+
+/*    title-img      */
+
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/*     featurs-section     */
+
+#features {
+    text-align: center;
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+    padding: 7% 15%;
+    line-height: 2.5rem;
+    font-size: 2rem;
+}
+
+/*    features-img    */
+
+.features-img {
+    font-size: 70px;
+    text-align: center;
+    color: #ef8172;
+    padding-bottom: 1.5rem;
+}
+.features-img:hover {
+    color: #ff4c68;
+}
+#features h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    height: 3.5rem;
+}
+
+
+/*     testimonials-section     */
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*       pricing section     */
+
+#pricing h3 {
+font-weight: bold;
+}
+
+.pricing-title {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.card-deck {
+    text-align: center;
+    padding: 3rem;
+}
+
+.card-header {
+    background-color: #f3f4ed;
+}
+
+#pricing button {
+    background-color: #0a043c;
+    color: honeydew;
+    width: 50%;
+    padding: 1rem;
+}
+#pricing button:hover {
+    background-color: #ff4c68;
+}
+
+ /*             cta/footer          */
+
+ #cta {
+     background-color: #ff4c68;
+     text-align: center;
+     padding: 2rem;
+     color: white;
+ }
+ #cta h3 {
+     color: white;
+     font-size: 4rem;
+ }
+
+ #footer {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+ }
+
+ #footer p {
+     color: white;
+ }
